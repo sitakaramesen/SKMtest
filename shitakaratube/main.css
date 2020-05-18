@@ -1,0 +1,95 @@
+h1 {
+  margin: 0;
+  padding: 0;
+  color: #101030;
+  background-color: #c0c0c0;
+  font-size: 14pt;
+  font-weight: bold;
+  font-family: Tahoma;
+  width: 768px;
+  height: 25px;
+}
+
+img,
+video,
+#myPlayer,
+#control {
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+  line-height: 0px;
+}
+
+#control {
+  position: relative;
+  top: -4px;
+  background-image: url(bar.png);
+  width: 768px;
+  height: 32px;
+  overflow: hidden;
+}
+
+#slider {
+  position: relative;
+  top: -48px;
+  margin: 0px 0px 0px 5px;
+  width: 755px;
+  opacity: 0.75;
+  font-size: 9px;
+  line-height: 100%;
+}
+
+#volumeSlider {
+  position: relative;
+  top: -33px;
+  left: 70px;
+  margin: 0px 0px 0px 5px;
+  width: 100px;
+  opacity: 0.75;
+  font-size: 9px;
+  line-height: 100%;
+}
+
+#speedSlider {
+  position: relative;
+  top: -42px;
+  left: 300px;
+  margin: 0px 0px 0px 5px;
+  width: 100px;
+  opacity: 0.75;
+  font-size: 9px;
+  line-height: 100%;
+}
+
+#fsButton {
+  position: relative;
+  left: 672px;
+}
+
+#ctime {
+  position: relative;
+  left: 190px;
+  top: -16px;
+  font-size: 11pt;
+  font-weight: bold;
+  font: vardana;
+}
+
+#slider.ui-widget-content {
+  background-image: url(red.png);
+}
+
+#playList {
+  position: relative;
+  left: 780px;
+  top: -507px;
+  width: 210px;
+  height: 480px;
+  border: 2px solid gray;
+  overflow: scroll;
+}
+
+#playList img:hover {
+  opacity: 0.7;
+}

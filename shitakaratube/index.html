@@ -1,39 +1,44 @@
-<html lang="ja"><head>
-		<meta charset="utf-8">
-		<title>HTML5オリジナルビデオプレイヤー</title>
-		<link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.9.custom.css" type="text/css" media="all">
-		<link rel="stylesheet" href="css/main.css" type="text/css" media="all">
-		<script type="text/javascript" src="js/jquery-1.5.min.js"></script>
-		<script type="text/javascript" src="js/jquery-ui-1.8.9.custom.min.js"></script>
-		<script type="text/javascript" src="js/player.js"></script>
-	</head>
-	<body>
-		<h1>HTML5オリジナルビデオプレイヤー</h1>
-		<div id="myPlayer">
-			<video id="myVideo" preload="" width="768" height="432" src="movie/fireworks.mov">
-				<source src="movie/sample.mov">
-				<source src="movie/sample.ogv">
-				<source src="movie/sample.webm">
-				<p>HTML5 videoに対応したブラウザをご利用下さい</p>
-			</video>
-			<div id="control">
-				<img src="images/play.png" id="playButton" width="32" height="32"><!--
-				--><img src="images/volume.png" id="volumeButton" width="32" height="32"><!--
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML5オリジナルビデオプレイヤー</title>
+  <link rel="stylesheet" href="jquery-ui-1.8.9.custom.css" type="text/css" media="all">
+  <link rel="stylesheet" href="main.css" type="text/css" media="all">
+  <script type="text/javascript" src="jquery-1.5.min.js"></script>
+  <script type="text/javascript" src="jquery-ui-1.8.9.custom.min.js"></script>
+  <script type="text/javascript" src="js/player.js"></script>
+</head>
+
+<body>
+  <h1>HTML5オリジナルビデオプレイヤー</h1>
+  <div id="myPlayer">
+    <video id="myVideo" preload="" width="768" height="432">
+      <source src="movie/sample.mov">
+      <source src="movie/sample.ogv">
+      <source src="movie/sample.webm">
+      <p>HTML5 videoに対応したブラウザをご利用下さい</p>
+    </video>
+    <div id="control">
+      <img src="images/play.png" id="playButton" width="32" height="32">
+      <!--
+				--><img src="images/volume.png" id="volumeButton" width="32" height="32">
+      <!--
 				--><img src="images/fullscreen.png" id="fsButton" width="32" height="32">
-				<div id="ctime">00:02/00:10</div>
-			</div>
-			<div id="slider" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><a href="#" class="ui-slider-handle ui-state-default ui-corner-all" style="left: 0%;"></a></div>
-			<div id="volumeSlider" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><a href="#" class="ui-slider-handle ui-state-default ui-corner-all" style="left: 100%;"></a></div>
-			<div id="speedSlider" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><a href="#" class="ui-slider-handle ui-state-default ui-corner-all" style="left: 33.33333333333333%;"></a></div>
-			<div id="playList">
-				<img src="thumbnail/fireworks.jpg" width="192" height="108" title="fireworks"><br>
-				<img src="thumbnail/hachibuse.jpg" width="192" height="108" title="hachibuse"><br>
-				<img src="thumbnail/rice.jpg" width="192" height="108" title="rice"><br>
-				<img src="thumbnail/sample.jpg" width="192" height="108" title="sample"><br>
-				<img src="thumbnail/suimon.jpg" width="192" height="108" title="suimon"><br>
-				<img src="thumbnail/tatsuno.jpg" width="192" height="108" title="tatsuno"><br>
-			</div>
-		</div>
-	
- 
-</body></html>
+      <div id="ctime">00:00/00:00</div>
+    </div>
+    <div id="slider" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><a href="#" class="ui-slider-handle ui-state-default ui-corner-all" style="left: 0%;"></a></div>
+    <div id="volumeSlider" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><a href="#" class="ui-slider-handle ui-state-default ui-corner-all" style="left: 100%;"></a></div>
+    <div id="speedSlider" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><a href="#" class="ui-slider-handle ui-state-default ui-corner-all" style="left: 33.33333333333333%;"></a></div>
+    <div id="playList">
+      <img src="thumbnail/fireworks.jpg" width="192" height="108" title="fireworks"><br>
+      <img src="thumbnail/hachibuse.jpg" width="192" height="108" title="hachibuse"><br>
+      <img src="thumbnail/rice.jpg" width="192" height="108" title="rice"><br>
+      <img src="thumbnail/sample.jpg" width="192" height="108" title="sample"><br>
+      <img src="thumbnail/suimon.jpg" width="192" height="108" title="suimon"><br>
+      <img src="thumbnail/tatsuno.jpg" width="192" height="108" title="tatsuno"><br>
+    </div>
+  </div>
+</body>
+
+</html>
