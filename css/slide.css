@@ -1,0 +1,13 @@
+/*
+スライダーの全体をウィンドウの幅ぴったりに設定
+※高さはスクリプト（js/jquery.slide.js）で指定*/
+.slider{
+    margin: 0 auto;
+    width: 800px;
+    text-align: left;
+    position: relative;
+    visibility: hidden;
+}
+.slider ul,.slider ul li{
+    
+}
